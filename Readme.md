@@ -127,6 +127,7 @@ The next screen will pop up asking you to edit your commit messages. You can cho
 
 Once your squash completes, you can push it to the remote repo. In this case, these squashed commits have been pushed to the server. However, I'm the only user of this branch and can safely force push the commit to update the git repo.
 
+
 ```bash
 git push origin pull-request-demo -f
 ```
